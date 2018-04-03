@@ -124,7 +124,6 @@ public class ConverterUI extends JFrame {
         );
 
         pack();
-        //loggingSetup();
         setLocationRelativeTo(null);
         setVisible(true);
         JOptionPane.showMessageDialog(jPanel1, "Application converts numerals"
