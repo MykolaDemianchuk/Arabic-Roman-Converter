@@ -1,12 +1,12 @@
-com\demianchuk\util\ConverterUtil.class
 com\demianchuk\exceptions\IllegalArabicException.class
 com\demianchuk\exceptions\IllegalInputException.class
 com\demianchuk\ui\ConverterUI.class
+com\demianchuk\converter\RomanToArabicConverter.class
+com\demianchuk\exceptions\IllegalRomanException.class
+com\demianchuk\ui\ConverterUI$2.class
+com\demianchuk\util\ConverterUtil.class
 com\demianchuk\exceptions\EmptyInputException.class
 com\demianchuk\App.class
 com\demianchuk\converter\ArabicToRomanConverter.class
-com\demianchuk\converter\RomanToArabicConverter.class
 com\demianchuk\ui\ConverterUI$1.class
 com\demianchuk\converter\NumeralConverter.class
-com\demianchuk\exceptions\IllegalRomanException.class
-com\demianchuk\ui\ConverterUI$2.class
