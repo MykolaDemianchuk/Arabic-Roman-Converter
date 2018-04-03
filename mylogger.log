@@ -2,4 +2,6 @@ WARN - Nothing to convert - 2018-04-03 15:13:21,982
 	Class: com.demianchuk.ui.ConverterUI
 	Line #158WARN - Illegal roman numeral - 2018-04-03 15:16:58,748 
 	Class: com.demianchuk.ui.ConverterUI
+	Line #158WARN - Illegal symbol appears - 2018-04-03 15:34:39,421 
+	Class: com.demianchuk.ui.ConverterUI
 	Line #158
