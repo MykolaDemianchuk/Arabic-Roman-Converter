@@ -15,6 +15,24 @@
           <target>8</target>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>com.jolira</groupId>
+        <artifactId>onejar-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <configuration>
+              <mainClass>com.demianchuk.App</mainClass>
+              <attachToBuild>true</attachToBuild>
+              <filename>
+                ArabicRomanConverter.jar
+              </filename>
+            </configuration>
+            <goals>
+              <goal>one-jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
   <packaging>jar</packaging>
