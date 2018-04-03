@@ -12,9 +12,7 @@ public class RomanToArabicConverter implements NumeralConverter {
 
     @Override
     public String convert(String value) throws Exception {
-        String roman = getValidRoman(value);
-        String arabic = getArabic(roman);
-        return arabic;
+        return getArabic(getValidRoman(value));
     }
 
     private static String getValidRoman(String roman) throws Exception {

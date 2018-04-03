@@ -41,13 +41,11 @@ public class ConverterUtil {
     }
 
     public static int getArabicRepresentation(String roman) {
-        int arabic = 0;
-        for (Map.Entry<Integer, String> entry : NUMERALS.entrySet()) {
-            if (entry.getValue().equals(roman)) {
-                arabic = entry.getKey();
-            }
-        }
-        return arabic;
+        return NUMERALS.entrySet()
+                .stream()
+                .filter(map -> map.getValue().equals(roman))
+                .mapToInt(map -> map.getKey())
+                .sum();
     }
 
     public static int getClosestArabicTo(int arabic) {
