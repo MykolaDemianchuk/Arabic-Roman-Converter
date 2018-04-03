@@ -1,7 +1,11 @@
 package com.demianchuk.converter;
 
 import com.demianchuk.exceptions.*;
+import com.demianchuk.util.ConverterUtil;
+
 import java.util.*;
+import java.util.stream.Collectors;
+
 import static com.demianchuk.util.ConverterUtil.*;
 
 public class RomanToArabicConverter implements NumeralConverter {
@@ -20,12 +24,9 @@ public class RomanToArabicConverter implements NumeralConverter {
     }
 
     private static String getArabic(String value) throws Exception {
-        int arabic = 0;
-        List<String> romans = splitRoman(value);
-        for (String roman : romans) {
-            arabic += getArabicRepresentation(roman);
-        }
-        return String.valueOf(arabic);
+        return splitRoman(value).stream()
+                .collect(Collectors.summingInt(ConverterUtil::getArabicRepresentation))
+                .toString();
     }
 
     private static List<String> splitRoman(String roman) throws Exception {
