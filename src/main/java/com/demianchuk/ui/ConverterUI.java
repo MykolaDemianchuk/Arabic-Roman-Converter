@@ -8,6 +8,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ConverterUI extends JFrame {
+    private static Logger logger = Logger.getLogger(ConverterUI.class);
 
     private JPanel jPanel1;
     private JLabel mainLabel;
@@ -16,12 +17,13 @@ public class ConverterUI extends JFrame {
     private JLabel romanLabel;
     private JTextField arabicTextField;
     private JTextField romanTextField;
+    private NumeralConverter aRConverter;
+    private NumeralConverter rAConverter;
 
-    private static Logger logger = Logger.getLogger(ConverterUI.class);
-    private final NumeralConverter ARConverter = new ArabicToRomanConverter();
-    private final NumeralConverter RAConverter = new RomanToArabicConverter();
-
-    public ConverterUI() {
+    public ConverterUI(NumeralConverter aRConverter,
+                       NumeralConverter rAConverter) {
+        this.aRConverter = aRConverter;
+        this.rAConverter = rAConverter;
         initComponents();
     }
 
@@ -133,13 +135,13 @@ public class ConverterUI extends JFrame {
 
     private void arabicTextFieldKeyPressed(KeyEvent evt) {
         if (isEnter(evt)) {
-            performAction(arabicTextField, romanTextField, ARConverter);
+            performAction(arabicTextField, romanTextField, aRConverter);
         }
     }
 
     private void romanTextFieldKeyPressed(KeyEvent evt) {
         if (isEnter(evt)) {
-            performAction(romanTextField, arabicTextField, RAConverter);
+            performAction(romanTextField, arabicTextField, rAConverter);
         }
     }
 
