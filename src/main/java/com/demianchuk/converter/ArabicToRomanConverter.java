@@ -27,10 +27,8 @@ public class ArabicToRomanConverter implements NumeralConverter {
 
     private static String getRoman(int value) {
         int closestValue = getClosestArabicTo(value);
-        if (closestValue == value) {
+        if (closestValue == value)
             return getRomanRepresentation(value);
-        }
-        int residualValue = value - closestValue;
-        return getRomanRepresentation(closestValue) + getRoman(residualValue);
+        return getRomanRepresentation(closestValue) + getRoman(value - closestValue);
     }
 }
