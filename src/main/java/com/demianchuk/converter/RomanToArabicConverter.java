@@ -7,24 +7,33 @@ import java.util.stream.Collectors;
 
 import static com.demianchuk.util.ConverterUtil.*;
 
-public class RomanToArabicConverter implements NumeralConverter {
+public class RomanToArabicConverter extends NumeralConverter {
 
     @Override
-    public String convert(String value) throws Exception {
-        return getArabic(getValidRoman(value));
-    }
-
-    private static String getValidRoman(String roman) throws Exception {
-        String validRoman = roman.toUpperCase();
-        checkPositioning(splitRoman(validRoman));
-        return validRoman;
-    }
-
-    private static String getArabic(String value) throws Exception {
+    protected String getConvertedNumeral(String value) throws Exception {
         return splitRoman(value).stream()
                 .collect(Collectors.summingInt(ConverterUtil::getArabicRepresentation))
                 .toString();
     }
+
+    @Override
+    protected String getValidNumeral(String value) throws Exception {
+        String validRoman = value.toUpperCase();
+        checkPositioning(splitRoman(validRoman));
+        return validRoman;
+    }
+
+//    private static String getValidRoman(String roman) throws Exception {
+//        String validRoman = roman.toUpperCase();
+//        checkPositioning(splitRoman(validRoman));
+//        return validRoman;
+//    }
+
+//    private static String getArabic(String value) throws Exception {
+//        return splitRoman(value).stream()
+//                .collect(Collectors.summingInt(ConverterUtil::getArabicRepresentation))
+//                .toString();
+//    }
 
     private static List<String> splitRoman(String roman) throws Exception {
         List<String> romans = new ArrayList<>();

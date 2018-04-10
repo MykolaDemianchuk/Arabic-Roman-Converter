@@ -10,3 +10,12 @@ WARN - Nothing to convert - 2018-04-04 14:44:19,716
 WARN - Illegal roman numeral - 2018-04-04 14:44:28,519 
 	Class: com.demianchuk.ui.ConverterUI
 	Line #159
+WARN - Number is out of range - 2018-04-10 17:02:59,268 
+	Class: com.demianchuk.ui.ConverterUI
+	Line #159
+WARN - Illegal roman numeral - 2018-04-10 17:03:10,246 
+	Class: com.demianchuk.ui.ConverterUI
+	Line #159
+WARN - Illegal symbol appears - 2018-04-10 17:03:16,556 
+	Class: com.demianchuk.ui.ConverterUI
+	Line #159

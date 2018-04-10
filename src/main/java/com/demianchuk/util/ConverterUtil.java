@@ -1,5 +1,8 @@
 package com.demianchuk.util;
 
+import com.demianchuk.exceptions.IllegalInputException;
+import com.sun.xml.internal.ws.api.ha.StickyFeature;
+
 import java.util.*;
 
 public class ConverterUtil {
@@ -28,8 +31,14 @@ public class ConverterUtil {
         NUMERALS.put(1, "I");
     }
 
-    public static boolean isOutOfRange(int value) {
-        return value < MIN_VALUE || value > MAX_VALUE;
+    public static boolean isOutOfRange(String value) throws IllegalInputException {
+        int validValue;
+        try {
+            validValue = Integer.parseInt(value);
+        } catch (NumberFormatException e) {
+            throw new IllegalInputException();
+        }
+        return validValue < MIN_VALUE || validValue > MAX_VALUE;
     }
 
     public static Collection<String> getRomanValues() {
