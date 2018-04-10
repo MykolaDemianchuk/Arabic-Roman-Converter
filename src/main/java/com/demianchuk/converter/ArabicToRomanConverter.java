@@ -1,17 +1,9 @@
 package com.demianchuk.converter;
 
 import com.demianchuk.exceptions.*;
-
 import static com.demianchuk.util.ConverterUtil.*;
 
 public class ArabicToRomanConverter extends NumeralConverter {
-
-//    @Override
-//    public String convert(String value) throws Exception {
-//        int arabic = getValidArabic(value);
-//        String roman = getRoman(arabic);
-//        return roman;
-//    }
 
     @Override
     protected String getConvertedNumeral(String value) {

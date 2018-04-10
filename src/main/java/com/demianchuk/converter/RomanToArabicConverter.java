@@ -23,18 +23,6 @@ public class RomanToArabicConverter extends NumeralConverter {
         return validRoman;
     }
 
-//    private static String getValidRoman(String roman) throws Exception {
-//        String validRoman = roman.toUpperCase();
-//        checkPositioning(splitRoman(validRoman));
-//        return validRoman;
-//    }
-
-//    private static String getArabic(String value) throws Exception {
-//        return splitRoman(value).stream()
-//                .collect(Collectors.summingInt(ConverterUtil::getArabicRepresentation))
-//                .toString();
-//    }
-
     private static List<String> splitRoman(String roman) throws Exception {
         List<String> romans = new ArrayList<>();
         boolean found;
