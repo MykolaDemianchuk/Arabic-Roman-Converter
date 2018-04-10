@@ -1,28 +1,28 @@
 package com.demianchuk.converter;
 
 import com.demianchuk.exceptions.*;
+
 import static com.demianchuk.util.ConverterUtil.*;
 
-public class ArabicToRomanConverter implements NumeralConverter {
+public class ArabicToRomanConverter extends NumeralConverter {
+
+//    @Override
+//    public String convert(String value) throws Exception {
+//        int arabic = getValidArabic(value);
+//        String roman = getRoman(arabic);
+//        return roman;
+//    }
 
     @Override
-    public String convert(String value) throws Exception {
-        int arabic = getValidArabic(value);
-        String roman = getRoman(arabic);
-        return roman;
+    protected String getConvertedNumeral(String value) {
+        return getRoman(Integer.parseInt(value));
     }
 
-    private static int getValidArabic(String value) throws Exception {
-        int arabic = 0;
-        try {
-            arabic = Integer.parseInt(value);
-        } catch (NumberFormatException e) {
-            throw new IllegalInputException();
-        }
-        if (isOutOfRange(arabic)) {
+    @Override
+    protected String getValidNumeral(String value) throws Exception {
+        if (isOutOfRange(value))
             throw new IllegalArabicException();
-        }
-        return arabic;
+        return value;
     }
 
     private static String getRoman(int value) {
