@@ -19,3 +19,6 @@ WARN - Illegal roman numeral - 2018-04-10 17:03:10,246
 WARN - Illegal symbol appears - 2018-04-10 17:03:16,556 
 	Class: com.demianchuk.ui.ConverterUI
 	Line #159
+WARN - Number is out of range - 2018-04-10 17:21:50,067 
+	Class: com.demianchuk.ui.ConverterUI
+	Line #159

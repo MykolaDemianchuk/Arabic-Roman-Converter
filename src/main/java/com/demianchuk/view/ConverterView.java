@@ -1,14 +1,15 @@
-package com.demianchuk.ui;
+package com.demianchuk.view;
 
+import com.demianchuk.checker.ArabicNumeralChecker;
+import com.demianchuk.checker.NumeralChecker;
+import com.demianchuk.checker.RomanNumeralChecker;
 import com.demianchuk.converter.*;
-import com.demianchuk.exceptions.*;
 import org.apache.log4j.Logger;
 
 import java.awt.event.*;
 import javax.swing.*;
 
-public class ConverterUI extends JFrame {
-    private static Logger logger = Logger.getLogger(ConverterUI.class);
+public class ConverterView extends JFrame {
 
     private JPanel jPanel1;
     private JLabel mainLabel;
@@ -17,17 +18,11 @@ public class ConverterUI extends JFrame {
     private JLabel romanLabel;
     private JTextField arabicTextField;
     private JTextField romanTextField;
-    private NumeralConverter aRConverter;
-    private NumeralConverter rAConverter;
 
-    public ConverterUI(NumeralConverter aRConverter,
-                       NumeralConverter rAConverter) {
-        this.aRConverter = aRConverter;
-        this.rAConverter = rAConverter;
+    public ConverterView() {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
     private void initComponents() {
         jPanel1 = new JPanel();
         mainLabel = new JLabel();
@@ -42,12 +37,6 @@ public class ConverterUI extends JFrame {
 
         arabicTextField.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         arabicTextField.setToolTipText("Press Enter to convert");
-        arabicTextField.addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent evt) {
-                arabicTextFieldKeyPressed(evt);
-            }
-        });
 
         mainLabel.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
         mainLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -62,12 +51,6 @@ public class ConverterUI extends JFrame {
 
         romanTextField.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         romanTextField.setToolTipText("Press Enter to convert");
-        romanTextField.addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent evt) {
-                romanTextFieldKeyPressed(evt);
-            }
-        });
 
         mainLabel2.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         mainLabel2.setHorizontalAlignment(SwingConstants.CENTER);
@@ -129,40 +112,28 @@ public class ConverterUI extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
         JOptionPane.showMessageDialog(jPanel1, "Application converts numerals"
-                + " in a range from 1 to 3999",
+                        + " in a range from 1 to 3999",
                 "Info", JOptionPane.INFORMATION_MESSAGE);
     }
 
-    private void arabicTextFieldKeyPressed(KeyEvent evt) {
-        if (isEnter(evt)) {
-            performAction(arabicTextField, romanTextField, aRConverter);
-        }
+    public void addArabicListener(KeyListener arabicListener) {
+        arabicTextField.addKeyListener(arabicListener);
     }
 
-    private void romanTextFieldKeyPressed(KeyEvent evt) {
-        if (isEnter(evt)) {
-            performAction(romanTextField, arabicTextField, rAConverter);
-        }
+    public void addRomanListener(KeyListener romanListener) {
+        romanTextField.addKeyListener(romanListener);
     }
 
-    private void performAction(JTextField from, JTextField to,
-            NumeralConverter converter) {
-
-        String text = from.getText().trim();
-        try {
-            if (text.isEmpty()) {
-                throw new EmptyInputException();
-            }
-            String result = converter.convert(text);
-            to.setText(result);
-        } catch (Exception e) {
-            logger.warn(e.getMessage());
-            JOptionPane.showMessageDialog(jPanel1, e.getMessage(),
-                    "Error", JOptionPane.ERROR_MESSAGE);
-        }
+    public JTextField getArabicTextField() {
+        return arabicTextField;
     }
 
-    private boolean isEnter(KeyEvent evt) {
-        return evt.getKeyCode() == 10;
+    public JTextField getRomanTextField() {
+        return romanTextField;
+    }
+
+    public void displayErrorMessage(String errorMessage) {
+        JOptionPane.showMessageDialog(this, errorMessage,
+                "Error", JOptionPane.ERROR_MESSAGE);
     }
 }
