@@ -1,8 +1,8 @@
 package com.demianchuk;
 
-import com.demianchuk.checker.*;
 import com.demianchuk.controller.*;
-import com.demianchuk.converter.*;
+import com.demianchuk.models.checker.*;
+import com.demianchuk.models.converter.*;
 import com.demianchuk.view.*;
 
 

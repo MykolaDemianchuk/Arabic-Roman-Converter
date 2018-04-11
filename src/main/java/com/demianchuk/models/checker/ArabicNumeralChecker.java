@@ -1,4 +1,4 @@
-package com.demianchuk.checker;
+package com.demianchuk.models.checker;
 
 public class ArabicNumeralChecker implements NumeralChecker {
     private static final int NUMERAL_MIN = 1;
@@ -11,7 +11,7 @@ public class ArabicNumeralChecker implements NumeralChecker {
         try {
             checkedNumeral = Integer.parseInt(numeral);
         } catch (NumberFormatException e) {
-            System.out.println("Illegal input");
+            //TODO
         }
         return !isOutOfRange(checkedNumeral);
     }
