@@ -6,9 +6,10 @@ import com.demianchuk.models.converter.*;
 import com.demianchuk.view.*;
 
 
-public class App {
+public class ConverterApp {
+
     public static void main(String[] args) {
-        new App().go();
+        new ConverterApp().go();
     }
 
     private void go() {

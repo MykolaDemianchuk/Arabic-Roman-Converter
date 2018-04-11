@@ -1,13 +1,11 @@
 package com.demianchuk.models.checker;
 
-import com.demianchuk.exceptions.EmptyInputException;
-
 public abstract class NumeralChecker {
-    public boolean isLegalNumeral(String numeral) throws Exception {
-        if(numeral.isEmpty())
-            throw new EmptyInputException();
+    public boolean isLegalNumeral(String numeral) {
+        if (numeral.isEmpty())
+            return false;
         return isValid(numeral);
     }
 
-    abstract boolean isValid(String numeral) throws Exception;
+    abstract boolean isValid(String numeral);
 }
