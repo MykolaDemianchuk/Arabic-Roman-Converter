@@ -1,0 +1,5 @@
+com\demianchuk\models\converter\RomanToArabicConverterTest.class
+com\demianchuk\util\ConverterUtilTest.class
+com\demianchuk\models\checker\ArabicNumeralCheckerTest.class
+com\demianchuk\models\converter\ArabicToRomanConverterTest.class
+com\demianchuk\models\checker\RomanNumeralCheckerTest.class
