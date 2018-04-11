@@ -1,7 +1,7 @@
 package com.demianchuk.controller;
 
-import com.demianchuk.checker.NumeralChecker;
-import com.demianchuk.converter.NumeralConverter;
+import com.demianchuk.models.checker.NumeralChecker;
+import com.demianchuk.models.converter.NumeralConverter;
 import com.demianchuk.view.ConverterView;
 
 import java.awt.event.KeyAdapter;

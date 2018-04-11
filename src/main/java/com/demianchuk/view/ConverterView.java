@@ -1,11 +1,5 @@
 package com.demianchuk.view;
 
-import com.demianchuk.checker.ArabicNumeralChecker;
-import com.demianchuk.checker.NumeralChecker;
-import com.demianchuk.checker.RomanNumeralChecker;
-import com.demianchuk.converter.*;
-import org.apache.log4j.Logger;
-
 import java.awt.event.*;
 import javax.swing.*;
 
@@ -132,6 +126,7 @@ public class ConverterView extends JFrame {
         return romanTextField;
     }
 
+    //TODO
     public void displayErrorMessage(String errorMessage) {
         JOptionPane.showMessageDialog(this, errorMessage,
                 "Error", JOptionPane.ERROR_MESSAGE);

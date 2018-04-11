@@ -1,6 +1,6 @@
-package com.demianchuk.converter;
+package com.demianchuk.models.converter;
 
-import com.demianchuk.checker.RomanNumeralChecker;
+import com.demianchuk.models.checker.RomanNumeralChecker;
 import com.demianchuk.util.ConverterUtil;
 
 import java.util.stream.Collectors;

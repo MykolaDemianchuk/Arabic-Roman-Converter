@@ -1,4 +1,4 @@
-package com.demianchuk.converter;
+package com.demianchuk.models.converter;
 
 public interface NumeralConverter {
     String convert(String value);

@@ -1,4 +1,4 @@
-package com.demianchuk.checker;
+package com.demianchuk.models.checker;
 
 import java.util.*;
 import com.demianchuk.util.ConverterUtil;
@@ -24,7 +24,7 @@ public class RomanNumeralChecker implements NumeralChecker {
                 }
             }
             if (!found) {
-                //throw new IllegalInputException();
+                //TODO throw new IllegalInputException();
             }
         }
         return romans;
@@ -46,12 +46,12 @@ public class RomanNumeralChecker implements NumeralChecker {
             if (value > nextValue) {
                 if (isSameBase(value, nextValue)
                         && (!startsWithFive(value) || !startsWithOne(nextValue))) {
-                    //throw new IllegalRomanException();
+                    //TODO throw new IllegalRomanException();
                 }
                 repCount = 0;
                 continue;
             }
-           // throw new IllegalRomanException();
+           // TODO throw new IllegalRomanException();
         }
     }
 
