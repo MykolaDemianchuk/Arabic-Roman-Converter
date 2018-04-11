@@ -1,5 +1,7 @@
 # ArabicRomanConverter-Maven
 Java application for Arabic-Roman and Roman-Arabic numeral conversion. <br>
+
+## Installing
 To launch the app simlpy download executable jar file - target/<b>ArabicRomanConverter-1.3.jar.</b>
 
 ## Preview 
