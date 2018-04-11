@@ -1,18 +1,23 @@
 package com.demianchuk.models.checker;
 
-public class ArabicNumeralChecker implements NumeralChecker {
+import com.demianchuk.exceptions.IllegalArabicException;
+import com.demianchuk.exceptions.IllegalInputException;
+
+public class ArabicNumeralChecker extends NumeralChecker {
     private static final int NUMERAL_MIN = 1;
     private static final int NUMERAL_MAX = 3999;
 
     @Override
-    public boolean isLegalNumeral(String numeral) {
-        int checkedNumeral = 0;
+    boolean isValid(String numeral) throws Exception {
+        int checkedNumeral;
         try {
             checkedNumeral = Integer.parseInt(numeral);
         } catch (NumberFormatException e) {
-            //TODO
+            throw new IllegalInputException();
         }
-        return !isOutOfRange(checkedNumeral);
+        if(isOutOfRange(checkedNumeral))
+            throw new IllegalArabicException();
+        return true;
     }
 
     private boolean isOutOfRange(int numeral) {

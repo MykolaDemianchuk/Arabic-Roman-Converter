@@ -1,17 +1,21 @@
 package com.demianchuk.models.checker;
 
 import java.util.*;
+
+import com.demianchuk.exceptions.IllegalInputException;
+import com.demianchuk.exceptions.IllegalRomanException;
 import com.demianchuk.util.ConverterUtil;
 
-public class RomanNumeralChecker implements NumeralChecker {
+public class RomanNumeralChecker extends NumeralChecker {
 
     @Override
-    public boolean isLegalNumeral(String numeral) {
-        checkPositioning(splitRoman(numeral));
+    boolean isValid(String numeral) throws Exception {
+        if(wrongOrderOfNumerals(splitRoman(numeral)))
+            throw new IllegalRomanException();
         return true;
     }
 
-    public static List<String> splitRoman(String roman) {
+    public static List<String> splitRoman(String roman) throws IllegalInputException {
         List<String> romans = new ArrayList<>();
         boolean found;
         while (!roman.isEmpty()) {
@@ -24,13 +28,13 @@ public class RomanNumeralChecker implements NumeralChecker {
                 }
             }
             if (!found) {
-                //TODO throw new IllegalInputException();
+                throw new IllegalInputException();
             }
         }
         return romans;
     }
 
-    public void checkPositioning(List<String> romans) {
+    private boolean wrongOrderOfNumerals(List<String> romans){
         int repCount = 0;
 
         for (int i = 0; i < romans.size() - 1; i++) {
@@ -46,28 +50,29 @@ public class RomanNumeralChecker implements NumeralChecker {
             if (value > nextValue) {
                 if (isSameBase(value, nextValue)
                         && (!startsWithFive(value) || !startsWithOne(nextValue))) {
-                    //TODO throw new IllegalRomanException();
+                    return true;
                 }
                 repCount = 0;
                 continue;
             }
-           // TODO throw new IllegalRomanException();
+            return true;
         }
+        return false;
     }
 
     private boolean isLegalToRepeat(int value) {
         return startsWithOne(value);
     }
 
-    public boolean startsWithOne(int value) {
+    private boolean startsWithOne(int value) {
         return String.valueOf(value).startsWith("1");
     }
 
-    public boolean startsWithFive(int value) {
+    private boolean startsWithFive(int value) {
         return String.valueOf(value).startsWith("5");
     }
 
-    public boolean isSameBase(int first, int second) {
+    private boolean isSameBase(int first, int second) {
         return String.valueOf(first).length() == String.valueOf(second).length();
     }
 }
