@@ -15,6 +15,11 @@ public class ConverterView extends JFrame {
 
     public ConverterView() {
         initComponents();
+        pack();
+        setLocationRelativeTo(null);
+        displayInfoMessage("Application converts numerals"
+                + " in a range from 1 to 3999");
+        setVisible(true);
     }
 
     private void initComponents() {
@@ -35,7 +40,6 @@ public class ConverterView extends JFrame {
         mainLabel.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
         mainLabel.setHorizontalAlignment(SwingConstants.CENTER);
         mainLabel.setText("Arabic - Roman");
-        mainLabel.setToolTipText(""); // NOI18N
 
         arabicLabel.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         arabicLabel.setText("Arabic numeral");
@@ -101,13 +105,6 @@ public class ConverterView extends JFrame {
                 layout.createParallelGroup(GroupLayout.Alignment.LEADING)
                         .addComponent(jPanel1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-
-        pack();
-        setLocationRelativeTo(null);
-        setVisible(true);
-        JOptionPane.showMessageDialog(jPanel1, "Application converts numerals"
-                        + " in a range from 1 to 3999",
-                "Info", JOptionPane.INFORMATION_MESSAGE);
     }
 
     public void addArabicListener(KeyListener arabicListener) {
@@ -124,6 +121,10 @@ public class ConverterView extends JFrame {
 
     public JTextField getRomanTextField() {
         return romanTextField;
+    }
+
+    private void displayInfoMessage(String infoMessage) {
+        JOptionPane.showMessageDialog(this, infoMessage);
     }
 
     //TODO

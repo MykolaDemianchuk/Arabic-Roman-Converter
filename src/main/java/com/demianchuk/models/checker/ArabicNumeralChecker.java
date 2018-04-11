@@ -4,7 +4,6 @@ public class ArabicNumeralChecker implements NumeralChecker {
     private static final int NUMERAL_MIN = 1;
     private static final int NUMERAL_MAX = 3999;
 
-
     @Override
     public boolean isLegalNumeral(String numeral) {
         int checkedNumeral = 0;
