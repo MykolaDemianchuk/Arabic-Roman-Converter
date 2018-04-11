@@ -22,6 +22,10 @@ public class ConverterUtil {
         NUMERALS.put(1, "I");
     }
 
+    public static String getValidValue(String value) {
+        return value.trim().toUpperCase();
+    }
+
     public static String getRomanRepresentation(int arabic) {
         return NUMERALS.get(arabic);
     }
@@ -40,5 +44,24 @@ public class ConverterUtil {
                 .filter(map -> map.getValue().equals(roman))
                 .mapToInt(map -> map.getKey())
                 .sum();
+    }
+
+    public static List<String> splitRoman(String roman) {
+        List<String> romans = new ArrayList<>();
+        boolean found;
+        while (!roman.isEmpty()) {
+            found = false;
+            for (String value : ConverterUtil.getRomanValues()) {
+                if (roman.startsWith(value)) {
+                    romans.add(value);
+                    roman = roman.substring(value.length());
+                    found = true;
+                }
+            }
+            if (!found) {
+                return null;
+            }
+        }
+        return romans;
     }
 }
