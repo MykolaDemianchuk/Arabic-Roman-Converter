@@ -10,7 +10,7 @@ import java.awt.event.KeyEvent;
 public class RomanController extends ConverterController {
 
     public RomanController(ConverterView view, NumeralChecker checker,
-                            NumeralConverter converter) {
+                           NumeralConverter converter) {
         super(view, checker, converter);
         this.view.addRomanListener(new RomanListener());
     }

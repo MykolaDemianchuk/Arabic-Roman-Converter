@@ -14,7 +14,7 @@ public class ConverterController {
     private NumeralConverter converter;
 
     protected ConverterController(ConverterView view, NumeralChecker checker,
-                               NumeralConverter converter) {
+                                  NumeralConverter converter) {
         this.view = view;
         this.checker = checker;
         this.converter = converter;
@@ -26,11 +26,11 @@ public class ConverterController {
 
     protected void performAction(JTextField from, JTextField to) {
         String value = from.getText().trim().toUpperCase();
-        try {
-            if (checker.isLegalNumeral(value))
-                to.setText(converter.convert(value));
-        } catch (Exception e) {
-            view.displayErrorMessage(e.getMessage());
+        if (checker.isLegalNumeral(value)) {
+            to.setText(converter.convert(value));
+        } else {
+            to.setText("");
+            view.displayErrorMessage("Invalid input");
         }
     }
 }

@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="473aef6a-465a-484e-be6a-c30c7c2d9eba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylogger.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/ConverterApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/RomanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/RomanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/EmptyInputException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalArabicException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalInputException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalRomanException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/ArabicNumeralChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/ArabicNumeralChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/RomanNumeralChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/RomanNumeralChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demianchuk/view/ConverterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demianchuk/view/ConverterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/controller/ConverterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/controller/ConverterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/exceptions/EmptyInputException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/exceptions/IllegalArabicException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/exceptions/IllegalInputException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/exceptions/IllegalRomanException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/models/checker/ArabicNumeralChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/models/checker/ArabicNumeralChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/models/checker/NumeralChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/models/checker/NumeralChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/models/checker/RomanNumeralChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/models/checker/RomanNumeralChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/models/converter/NumeralConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/models/converter/NumeralConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demianchuk/models/converter/RomanToArabicConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demianchuk/models/converter/RomanToArabicConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +45,8 @@
       <file leaf-file-name="ConverterView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/view/ConverterView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="-674">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initComponents#0;class#ConverterView#0" />
@@ -43,37 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArabicNumeralChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/ArabicNumeralChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NumeralConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArabicController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ArabicController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -81,8 +75,8 @@
       <file leaf-file-name="RomanToArabicConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="133">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,60 +84,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanNumeralChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/RomanNumeralChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RomanController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/RomanController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArabicToRomanConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/ArabicToRomanConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConverterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumeralChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java">
+      <file leaf-file-name="RomanToArabicConverterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/converter/RomanToArabicConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterUtilTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/util/ConverterUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/ConverterApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArabicToRomanConverterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/converter/ArabicToRomanConverterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArabicNumeralCheckerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/ArabicNumeralCheckerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RomanNumeralCheckerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/RomanNumeralCheckerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArabicController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ArabicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +173,7 @@
       <list>
         <option value="XML Properties File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -176,7 +195,6 @@
         <option value="$PROJECT_DIR$/logger.log" />
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/mylogger.log" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/model/ArabicChecker.java" />
@@ -197,16 +215,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/converter/RomanToArabicConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/checker/ArabicNumeralChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/checker/RomanNumeralChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalArabicException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/view/ConverterView.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/RomanController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/view/ConverterView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/NumeralCheckerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/ArabicNumeralChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/RomanNumeralChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalArabicException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demianchuk/ConverterApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/ArabicNumeralCheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/RomanNumeralCheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demianchuk/util/ConverterUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demianchuk/models/converter/ArabicToRomanConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demianchuk/models/converter/RomanToArabicConverterTest.java" />
       </list>
     </option>
   </component>
@@ -281,16 +307,28 @@
               <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demianchuk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demianchuk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demianchuk" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
@@ -299,7 +337,7 @@
               <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demianchuk" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
@@ -309,7 +347,7 @@
               <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demianchuk" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
@@ -319,30 +357,10 @@
               <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demianchuk" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArabicRomanConverter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArabicRomanConverter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,6 +372,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Nick/IdeaProjects/ArabicRomanConverter/src/main/java/com/demianchuk/ui/ConverterUI.java" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -361,6 +381,14 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.demianchuk.models.converter" />
+      <recent name="com.demianchuk.util" />
+      <recent name="com.demianchuk.models.checker" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nick\IdeaProjects\ArabicRomanConverter\src\main\resources" />
       <recent name="C:\Users\Nick\IdeaProjects\ArabicRomanConverter\src\main\java\com\demianchuk\ui" />
@@ -381,9 +409,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demianchuk.App" />
+  <component name="RunManager" selected="Application.ConverterApp">
+    <configuration name="ConverterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demianchuk.ConverterApp" />
       <module name="ArabicRomanConverter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -417,11 +445,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.ConverterView" />
-      <item itemvalue="Application.App" />
+      <item itemvalue="Application.ConverterApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ConverterApp" />
         <item itemvalue="Application.ConverterView" />
       </list>
     </recent_temporary>
@@ -456,7 +484,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.3280116" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.32365748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.32365748" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.3280116" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
@@ -479,59 +507,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/ArabicToRomanConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalArabicException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalInputException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mylogger.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -585,7 +564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/ConverterApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -673,7 +652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/ConverterApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -693,13 +672,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/logger.log" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mylogger.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -748,35 +720,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/util/ConverterUtil.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="initializer##0;class#ConverterUtil#0" />
-            <element signature="method#getArabicRepresentation#0;class#ConverterUtil#0" />
-          </folding>
+        <state relative-caret-position="1144">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/NumeralCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalRomanException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalInputException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/EmptyInputException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -790,17 +751,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/EmptyInputException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalInputException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/exceptions/IllegalRomanException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/RomanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/ArabicNumeralChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/RomanNumeralChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/util/ConverterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="method#getArabicRepresentation#0;class#ConverterUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/ArabicToRomanConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ArabicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/ConverterApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/view/ConverterView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="-674">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initComponents#0;class#ConverterView#0" />
@@ -816,87 +887,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/RomanToArabicConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/ArabicNumeralCheckerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/checker/RomanNumeralCheckerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/converter/ArabicToRomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/ArabicToRomanConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/ArabicNumeralChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/NumeralChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/models/converter/RomanToArabicConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/checker/RomanNumeralChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/models/converter/NumeralConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demianchuk/util/ConverterUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/RomanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ConverterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demianchuk/controller/ArabicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="397">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
