@@ -7,9 +7,11 @@ To launch the app simlpy download executable jar file - target/<b>ArabicRomanCon
 ## Preview 
 
 Starting point is a <a href="https://github.com/MykolaDemianchuk/ArabicRomanConverter-Maven#rules">rules</a> reminder:
+
 ![screenshot-3](https://user-images.githubusercontent.com/35743439/38646299-ffa891ce-3dac-11e8-8dd8-ca5233bb075f.png)
 
 Input is case insensitive, trimmed from both ends:
+
 ![screenshot-1](https://user-images.githubusercontent.com/35743439/38645945-9d2531fc-3dab-11e8-8115-121f12643bf8.png)
 
 In case of violation of <a href="https://github.com/MykolaDemianchuk/ArabicRomanConverter-Maven#rules">rules</a> or typo you'll get an error message:
