@@ -1,4 +1,4 @@
-# ArabicRomanConverter-Maven
+# Arabic-Roman-Converter
 Java application for Arabic-Roman and Roman-Arabic numeral conversion. <br>
 
 ## Installing
