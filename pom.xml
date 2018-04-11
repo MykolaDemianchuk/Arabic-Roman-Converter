@@ -1,61 +1,51 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.demianchuk</groupId>
-  <artifactId>ArabicRomanConverter</artifactId>
-  <version>1.1-SNAPSHOT</version>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>8</source>
-          <target>8</target>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>com.jolira</groupId>
-        <artifactId>onejar-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <configuration>
-              <mainClass>com.demianchuk.ConverterApp</mainClass>
-              <attachToBuild>true</attachToBuild>
-              <filename>
-                ArabicRomanConverter.jar
-              </filename>
-            </configuration>
-            <goals>
-              <goal>one-jar</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-  <packaging>jar</packaging>
+    <groupId>com.demianchuk</groupId>
+    <artifactId>ArabicRomanConverter</artifactId>
+    <version>1.3</version>
+    <packaging>jar</packaging>
 
-  <name>ArabicRomanConverter</name>
-  <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk.version>1.8</jdk.version>
+    </properties>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.demianchuk.ConverterApp</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
