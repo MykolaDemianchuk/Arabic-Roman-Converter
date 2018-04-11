@@ -94,7 +94,3 @@ When a digit of lower value is written to the left or before a digit of higher v
          </tr><tr>
             <th>CMXLIX</th> <td>|C - M| + |X - L| + |I - X|</td> <td>900 + 40 + 9</td>
          </tr></table>
-         
-         
-  ## License 
-         
