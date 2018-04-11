@@ -2,6 +2,7 @@ package com.demianchuk.controller;
 
 import com.demianchuk.models.checker.NumeralChecker;
 import com.demianchuk.models.converter.NumeralConverter;
+import com.demianchuk.util.ConverterUtil;
 import com.demianchuk.view.ConverterView;
 
 import javax.swing.*;
@@ -25,7 +26,7 @@ public class ConverterController {
     }
 
     protected void performAction(JTextField from, JTextField to) {
-        String value = from.getText().trim().toUpperCase();
+        String value = ConverterUtil.getValidValue(from.getText());
         if (checker.isLegalNumeral(value)) {
             to.setText(converter.convert(value));
         } else {

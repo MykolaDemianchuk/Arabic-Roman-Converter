@@ -8,26 +8,7 @@ public class RomanNumeralChecker extends NumeralChecker {
 
     @Override
     boolean isValid(String numeral) {
-        return isInCorrectOrder(splitRoman(numeral));
-    }
-
-    public static List<String> splitRoman(String roman) {
-        List<String> romans = new ArrayList<>();
-        boolean found;
-        while (!roman.isEmpty()) {
-            found = false;
-            for (String value : ConverterUtil.getRomanValues()) {
-                if (roman.startsWith(value)) {
-                    romans.add(value);
-                    roman = roman.substring(value.length());
-                    found = true;
-                }
-            }
-            if (!found) {
-                return null;
-            }
-        }
-        return romans;
+        return isInCorrectOrder(ConverterUtil.splitRoman(numeral));
     }
 
     private boolean isInCorrectOrder(List<String> romans) {
