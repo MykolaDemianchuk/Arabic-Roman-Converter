@@ -8,12 +8,12 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class ConverterController {
+
     protected ConverterView view;
     private NumeralChecker checker;
     private NumeralConverter converter;
 
-
-    public ConverterController(ConverterView view, NumeralChecker checker,
+    protected ConverterController(ConverterView view, NumeralChecker checker,
                                NumeralConverter converter) {
         this.view = view;
         this.checker = checker;
@@ -25,12 +25,12 @@ public class ConverterController {
     }
 
     protected void performAction(JTextField from, JTextField to) {
-        String value = from.getText().toUpperCase();
+        String value = from.getText().trim().toUpperCase();
         try {
             if (checker.isLegalNumeral(value))
                 to.setText(converter.convert(value));
         } catch (Exception e) {
-            //TODO
+            view.displayErrorMessage(e.getMessage());
         }
     }
 }

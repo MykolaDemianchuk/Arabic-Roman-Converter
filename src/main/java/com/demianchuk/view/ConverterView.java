@@ -127,7 +127,6 @@ public class ConverterView extends JFrame {
         JOptionPane.showMessageDialog(this, infoMessage);
     }
 
-    //TODO
     public void displayErrorMessage(String errorMessage) {
         JOptionPane.showMessageDialog(this, errorMessage,
                 "Error", JOptionPane.ERROR_MESSAGE);
